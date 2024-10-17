@@ -11,6 +11,10 @@ def main_page():
 def menu_page():
     return render_template("menu.html")
 
+@app.route('/history')
+def history_page():
+    return render_template("history.html")
+
 '''@app.route('/get_oven_data', Methods=['POST'])
 def get_oven_data():
     return "Successful"'''
