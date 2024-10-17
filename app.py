@@ -16,5 +16,5 @@ def get_oven_data():
     return "Successful"'''
 
 
-if __name__ == '__main__':
-    app.run()
+if __name__ == "__main__":
+    app.run(debug=True)
